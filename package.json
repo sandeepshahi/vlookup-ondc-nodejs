@@ -1,0 +1,28 @@
+{
+  "name": "vlookup-ondc-nodejs",
+  "version": "1.0.0",
+  "description": "Utility to fetch registry details of an NP using /vlookup API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluecypher/vlookup-ondc-nodejs.git"
+  },
+  "keywords": [
+    "vlookup",
+    "ondc",
+    "ondc-registry"
+  ],
+  "author": "Sandeep Shahi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bluecypher/vlookup-ondc-nodejs/issues"
+  },
+  "homepage": "https://github.com/bluecypher/vlookup-ondc-nodejs#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "sodium-native": "^4.0.4"
+  }
+}
