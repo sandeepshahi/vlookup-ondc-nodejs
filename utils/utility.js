@@ -107,11 +107,13 @@ module.exports.vLookUp = async (data) => {
   try {
     const signingString = createSigningString(data);
     const signature = sign(signingString, data.privateKey);
-    const res = await getVLookUpData(signature, data);
-    console.log(res.data);
+    let res = await getVLookUpData(signature, data);
+    res = JSON.stringify(res.data);
+    return res;
   } catch (error) {
     if (error.response) {
       console.error("HTTP error code:", error.response.status);
+      console.error("Error:", error.message);
     } else {
       console.error("Error:", error.message);
     }

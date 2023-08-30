@@ -23,7 +23,7 @@ vLookUp({
   type: "buyerApp", //buyerApp, sellerApp, gateway
   city: "std:080",
   env: "preprod", //preprod,prod
-});
+}).then((res) => console.log(res));
 ```
 
-3. The output will consist of the registry details of the NP.
+3. The output will include the registry details of the NP.
