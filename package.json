@@ -1,5 +1,5 @@
 {
-  "name": "vlookup-ondc-nodejs",
+  "name": "vlookup-ondc",
   "version": "1.0.0",
   "description": "Utility to fetch registry details of an NP using /vlookup API",
   "main": "index.js",
@@ -13,7 +13,7 @@
   "keywords": [
     "vlookup",
     "ondc",
-    "ondc-registry"
+    "ondc registry"
   ],
   "author": "Sandeep Shahi",
   "license": "ISC",

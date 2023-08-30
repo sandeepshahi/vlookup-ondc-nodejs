@@ -1,3 +1,3 @@
-const { lookUp, vLookUp } = require("./utils/utility");
+const { vLookUp } = require("./utils/utility");
 
-module.exports = { lookUp, vLookUp };
+module.exports = vLookUp;

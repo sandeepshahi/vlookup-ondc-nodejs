@@ -1,18 +1,16 @@
-<!-- README for NPM -->
-
 ## ONDC /vlookup UTILITY
 
-1. Install the package.
+1. Clone the repository, navigate to vlookup-ondc and install the dependencies.
 
 ```sh
-npm i vlookup-ondc
-
+cd vlookup-ondc-nodejs
+npm i
 ```
 
 2. Import the vLookUp method in your project.
 
 ```js
-const vLookUp = require("vlookup-ondc");
+const vLookUp = require("./index");
 
 vLookUp({
   senderSubscriberId: "", //subscriber_id of sender
@@ -29,5 +27,3 @@ vLookUp({
 ```
 
 3. The output will include the registry details of the NP.
-
-Please refer to the [GitHub README](https://github.com/bluecypher/vlookup-ondc-nodejs#readme) for the documentation.
