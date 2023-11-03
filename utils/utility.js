@@ -22,6 +22,8 @@ const getEnvDetails = (env) => {
     envLink = constants.PREPROD_REGISTRY;
   } else if (env === "prod") {
     envLink = constants.PROD_REGISTRY;
+  } else if (env === "staging") {
+    envLink = constants.STAGE_REGISTRY;
   }
 
   return envLink;

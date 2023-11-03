@@ -22,7 +22,7 @@ vLookUp({
   country: "IND",
   type: "buyerApp", //buyerApp, sellerApp, gateway
   city: "std:080",
-  env: "preprod", //preprod,prod
+  env: "preprod", //staging,preprod,prod
 }).then((res) => console.log(res));
 ```
 
